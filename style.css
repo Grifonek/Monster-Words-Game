@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.game-start {
+    font-family: 'ArcadeClassic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-spacing: 1rem;
+}
+
+.game-start h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+
+.game-start h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.game-start button {
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 2rem;
+    width: 12rem;
+    height: 4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.game-container {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 99%;
+    height: 98%;
+}
+
+.finish-line {
+    position: absolute;
+    background-color: white;
+    width: 1%;
+    height: 95%;
+    top: 2.5%;
+    right: 2%;
+}
+
+.spawn-line {
+    position: absolute;
+    width: 10%;
+    height: 95%;
+    top: 2.5%;
+    left: 0.5%;
+    z-index: 1;
+}
+
+.monster {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    z-index: 0;
+}
+
+.monster h2 {
+    color: white;
+    margin: 0;
+}
+
+.monster img{
+    width: 8rem;
+}
+
+.game-over {
+    font-family: 'ArcadeClassic', sans-serif;
+    word-spacing: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.game-over h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+
+.game-over h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.game-over button {
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 2rem;
+    width: 12rem;
+    height: 4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .game-start {
+        display: none;
+    }
+
+    .showOnMobile {
+        display: block !important;
+        font-family: 'ArcadeClassic', sans-serif;
+        font-size: 4rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}

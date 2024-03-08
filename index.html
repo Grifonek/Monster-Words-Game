@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Words Game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.cdnfonts.com/css/arcade-classic');</style>
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+
+    <div class="game-start">
+        <h1>WELCOME TO MY MONSTER WORDS GAME!</h1>
+        <h2>Your goal here is to kill all enemies, bloody thirsty monsters.</h2>
+        <h2>HOW TO DO IT?</h2>
+        <h2>Every monster has it's word and your work is to type those words.</h2>
+        <h2>If you made a typo mistake, just hit "Escape" and try it again.</h2>
+        <h2>Be CAREFULL and do not let them reach FINISH LINE!</h2>
+        <button style="background-color: black; color: white;">START GAME</button>
+    </div>
+
+    <div class="game-container" style="display: none;">
+        <div class="finish-line"></div>
+        <div class="spawn-line">
+            <!-- <div class="monster">
+                <h2>Word</h2>
+                <img src="img/Flatwoods_monster_v3.png" alt="monster">
+            </div> -->
+        </div>
+    </div>
+
+    <div class="game-over" style="display: none;">
+        <h1></h1>
+        <h2>Your time:</h2>
+        <h2>Monsters killed:</h2>
+        <button style="background-color: black; color: white;"></button>
+    </div>
+
+    <h1 class="showOnMobile" style="display: none;">GAME NOT ACCESSIBLE ON SMALLER SCREENS, RUN IT ON YOUR PC 🤷‍♂️</h1>
+
+</body>
+</html>

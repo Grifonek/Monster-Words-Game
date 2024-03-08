@@ -1,0 +1,3 @@
+My idea is to create a keyboard based game, where you have to type words displayed. Word will be carried by monsters images and they will move from left to right. On the right side there will be final line and if monster reach it, you lose and game duration time will be displayed. The only way how to kill a monster is to write that word carried by it.
+
+I think the idea of funcionality is that it will generate img with the word above and there will be interval (setInterval()) of some miliseconds and after each time it will move that picture about 1% to the right. 
